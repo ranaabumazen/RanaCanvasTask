@@ -1,0 +1,58 @@
+<!DOCTYPE.html>
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="homecss.css">
+        <title>Loginform</title>
+        <script type="text/javascript" src="homejs.js"> </script>
+
+
+
+    </head>
+
+    <body id="body">
+
+
+        <div class="outdiv" id="firstDiv" style="display:block">
+            <br />
+
+
+           
+            <label>What is your name?</label>
+            <br />
+            <form id="Loginform" method="post">
+                <input type="text" name="username" id="username" />
+                <br />
+
+                <button type="submit" id="buttonlg" value="Enter">Enter</button>
+            </form>
+        </div>
+        <div class="secondDiv" id="secondDiv" style="display: none;">
+            <div class="canvtitle" id="canvtitle">Hello</div>
+            <div class="canvasdiv">
+
+                <div class="canvasarea">
+                    <canvas id="canvas" height="300" width="300"></canvas>
+                    <div class="colorchooser">
+                        <div class="choosecolor" style="background:green;" id="green" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background:white;" id="white" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background:blue;" id="blue" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background:red;" id="red" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background:yellow;" id="yellow" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background:orange;" id="orange" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background:black;" id="black" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background: pink" id="pink" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background: gray" id="gray" onclick="color(this)"></div>
+                        <div class="choosecolor" style="background: lightgray" id="lightgray" onclick="color(this)"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="peersarea">
+                Peers
+                <h1 id="peersareaUser"></h1>
+            </div>
+            
+        </div>
+    </body>
+
+    </html>
